@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-morning {
+  background-color: #FFFAE3;
+  animation: dayToAfternoon 1s ease-in-out;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-afternoon {
+  background-color: #FFD700;
+  animation: afternoonToNight 1s ease-in-out;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-night {
+  background-color: #2C3E50;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
