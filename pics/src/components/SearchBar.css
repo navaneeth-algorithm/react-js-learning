@@ -1,0 +1,11 @@
+.search-field{
+
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-field form {
+    display: flex;
+    flex-direction: column;
+}
