@@ -16,7 +16,10 @@
     GET https://localhost:3001/books HTTP/1.1
     Content-Type: application/json
   `
-
-
 ### Context and Provider
 - Made using context
+
+output
+
+
+https://github.com/user-attachments/assets/8ecd68f0-db36-42a1-ad1d-b9b3be2af354
