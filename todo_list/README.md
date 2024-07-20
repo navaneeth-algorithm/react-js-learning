@@ -44,20 +44,20 @@ This Todo List application is a simple project built using React to manage tasks
 To get started with this project, follow these steps:
 
 1. **Clone the repository**:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/your-username/todo-list-app.git
    cd todo-list-app
-   \`\`\`
+   ```
 
 2. **Install dependencies**:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Run the application**:
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
 The application will start on \`http://localhost:3000\`.
 
@@ -65,10 +65,9 @@ The application will start on \`http://localhost:3000\`.
 
 Here's a demo video showcasing the features of the Todo List application:
 
-<video width="600" controls>
-  <source src="./demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/202feb18-f119-4c46-93f8-6e834b4ac57b
+
+
 
 ## Future Improvements
 
