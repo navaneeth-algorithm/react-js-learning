@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  @apply w-60 min-h-screen bg-slate-900 text-base text-gray-300 py-4;
+  /* Use fixed width */
+}
+
+.link {
+  @apply hover:bg-slate-700 hover:rounded transition flex items-center w-auto px-8 py-2 bg-slate-900;
+}
+
+.link>svg {
+  @apply mr-3;
+}
+
+.link.active {
+  @apply bg-slate-700 rounded text-white shadow shadow-gray-700;
+}
+
+.form {
+  @apply shadow p-3 bg-white rounded;
+}
+
+.form div {
+  @apply mt-2;
+}
+
+.form label {
+  @apply block text-sm font-medium text-gray-700;
+}
+
+.form input {
+  outline: none;
+}
+
+.category-form input {
+  outline: none;
+}
+
+.category-form input {
+  @apply w-60 p-2 border border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-800;
+}
+
+.form input {
+  @apply mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-800;
+}
+
+.category-form button{
+  @apply bg-blue-600 rounded text-base text-white px-4 py-1 hover:opacity-90;
+}
+
+.form button {
+  @apply bg-blue-600 rounded text-base text-white px-4 py-1 mt-3 hover:opacity-90;
+}
+
+.super-app-theme--header {
+  @apply  text-indigo-800 font-extrabold;
+}
