@@ -43,6 +43,15 @@
   @apply w-60 p-2 border border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-800;
 }
 
+.chat-form input {
+  outline: none;
+}
+
+.chat-form input {
+  @apply w-60 p-2 border border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-800;
+}
+
+
 .form input {
   @apply mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-800;
 }
@@ -57,4 +66,12 @@
 
 .super-app-theme--header {
   @apply  text-indigo-800 font-extrabold;
+}
+
+.ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* Number of lines to show before truncating */
+  line-clamp: 2;
+  overflow: hidden;
 }

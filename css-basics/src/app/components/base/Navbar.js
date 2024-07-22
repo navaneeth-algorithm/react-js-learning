@@ -4,7 +4,13 @@ import Link from 'next/link'
 import { usePathname } from "next/navigation";
 
 import React from 'react'
-import { VscHome,VscDashboard,VscAccount,VscFiles,VscSettings,VscTasklist } from "react-icons/vsc";
+import { VscHome,
+    VscDashboard,
+    VscFiles,
+    VscSettings,
+    VscTasklist ,
+    VscCommentDiscussion 
+} from "react-icons/vsc";
 
 
 const Navbar = () => {
@@ -14,9 +20,7 @@ const Navbar = () => {
         {href:'/',label:'Home',icon:<VscHome/>},
         {href:'/dashboard',label:'Dashboard',icon:<VscDashboard/>},
         {href:'/categories',label:'Categories',icon:<VscTasklist/>},
-        {href:'/users',label:'Users',icon:<VscAccount/>},
-        {href:'/files',label:'Files',icon:<VscFiles/>},
-        {href:'/settings',label:'Settings',icon:<VscSettings/>}
+        {href:'/chats',label:'Chats',icon:<VscCommentDiscussion />},
     ];
 
     const renderLinks = links.map((link)=>{
