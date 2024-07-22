@@ -2,6 +2,9 @@
 
 ## Basics of React
 
+### css-basics
+https://github.com/user-attachments/assets/bef66d58-3876-4d34-b517-60876e0f22f0
+
 ### animals
 https://github.com/user-attachments/assets/425f0329-108d-4d98-a4cb-1251c644e082
 
