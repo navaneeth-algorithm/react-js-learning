@@ -106,6 +106,12 @@ The main aim of this dashboard is to learn and implement Tailwind CSS, Material 
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Output
+
+https://github.com/user-attachments/assets/bef66d58-3876-4d34-b517-60876e0f22f0
+
+
+
 ## Usage
 
 - Navigate through the dashboard to explore various components such as charts, forms, and tables.
